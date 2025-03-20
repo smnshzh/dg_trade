@@ -7,7 +7,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from newsapi import NewsApiClient
 from datetime import datetime , timedelta
-
+from funcy import rtl_write
 # 1. خواندن داده‌های قیمت طلا از فایل CSV
 @st.cache_data
 def load_gold_data(file_path):
