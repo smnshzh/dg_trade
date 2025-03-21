@@ -11,5 +11,11 @@ plotly
 scikit-learn
 matplotlib
 newsapi-python
-TA-Lib
 yfinance
+pyodbc
+dotenv
+mysql-connector-python
+selenium
+plotly
+scikit-learn
+matplotlib

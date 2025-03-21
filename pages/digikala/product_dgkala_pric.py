@@ -20,7 +20,7 @@ def fetch_product_ids():
     try:
         # Establish a connection to the MariaDB database
         connection = cm()  # Assuming cm() is your connection function
-        if not connection:
+        if not connection.is_connected():
             st.error("Failed to connect to the database.")
             return []
 

@@ -23,6 +23,11 @@ def connect_to_mariadb():
         if connection.is_connected():
             print("✅ Successfully connected to the MariaDB database!")
             return connection
+        else :
+             print("can not connect")
+             return None
+
+        
 
    
 import streamlit as st
